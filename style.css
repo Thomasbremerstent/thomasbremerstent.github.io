@@ -16,7 +16,7 @@ html, body {
 .menu {
   list-style-type: none;
   left: 35px;
-  top: 60px;
+  top: 55px;
   position: fixed;
   font-size: 12px;
 }
@@ -44,8 +44,9 @@ html, body {
 }
 
 .billede-container {
-    left: 75%;
+    width: 800px;
+    border: 2px solid red;
+    left: 24%;
     position: absolute;
-    top: 75%;
-    transform: translate(-50%, -50%);
+    top: 17%;
 }
