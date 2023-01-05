@@ -11,186 +11,67 @@
     background-color: rgb(215, 229, 255, 0.1);
   }
 
-.exh-wrapper a {
-  -webkit-transition: opacity ease-in-out .3s; 
-  -moz-transition: opacity ease-in-out .3s; 
-  -o-transition: opacity ease-in-out .3s; 
-  transition: opacity ease-in-out .3s; 
-}
-.exh-wrapper a:hover {
-	opacity: 0.5; 
-}
-	
-	
-* {box-sizing: border-box}
-body
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 3400px;
-  top:11%;
-  left:18%;
-  position: absolute;
-  margin: auto;
-  z-index: -1;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  margin-top: -32px;
-  padding: 16px;
-  color: rgba(0, 0, 0, 0.7);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right:25%;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
-  animation-name: fade;
-  animation-duration: 1s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: 0.8} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: 0.8} 
-  to {opacity: 1}
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.zoom {
-  transition: transform .2s;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-}
-
 </style>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-	<div>
-		<ul class="menu">
-			<li><a href="index">Thomas Bremerstent</a></li>
-			<li><a href="info">info</a></li>
-			<br>
-			<li><a href="https://www.loevenshule.gallery"><u>Løvens Hule</u></a></li>
+  <div>
+    <ul class="menu">
+      <li><a href="index">Thomas Bremerstent</a></li>
+      <li><a href="info">info</a></li>
       <br>
-      <li><a href="https://www.celin.info"><u>Celin</u></a></li>
-		</ul>
-	</div>
+      <li><a href="https://www.loevenshule.gallery"><u>Løvens Hule</u></a></li>
+      <li><a href="https://www.celin.info"><u>celin</u></a></li>
+      </ul>
+  </div>
 
-<!-- slide show kun next ved tryk hvem end på billedet eller små gennemsigte pile-->
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <img src="billeder/oikos.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-  <p style="margin-left: 5%; font-size:14px">Oikos & Nomoi <br> 2021 <br> Gallery Memphis</p>
+  <div class="picturecontainer">
+  
+  <img style="width: 43vw;" src="billeder/lizaveta/liza_1.jpg">
+  <p>Lizaveta, 2022, Trafo Kunsthall, Asker, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/fox/fox_2.jpg">
+  <p>FOX, 2022, Vestfold Kunstsenter, Tønsberg, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/fox/fox_7.jpg">
+  <p>FOX, 2022, Vestfold Kunstsenter, Tønsberg, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/oikos&nomoi/indigo_1.jpg">
+  <p>Oikos & Nomoi, 2021, Gallery Memphis, Oslo, Norway</p>
+  <br>  
+  <img style="width: 43vw;" src="billeder/oikos&nomoi/indigo_5.jpg">
+  <p>Indigo Kid #3, 2021, Gallery Memphis, Oslo, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/crystal_kids/crystal_1.jpg">
+  <p>Crystal Kids, 2021, Salgshallen, Oslo, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/fugle_af_firenze/bird_1.jpg">
+  <p>Fugle af Firenze, 2021, Villa Lena, Tuscany, Italy</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/householding_rules/hare_1_2.jpg">
+  <p>Householding Rules, 2020, Studio17, Stavanger, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/householding_rules/man_banker.jpg">
+  <p>Householding Rules, 2020, Studio17, Stavanger, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/mod_vandet/mod_vandet.jpg">
+  <p> Mod Vandet, 2019, PLUM TRIM, Nesodden, Norway</p>
+  <br> 
+  <img style="width: 43vw;" src="billeder/jorden/jorden_1.jpg">
+  <p>Jorden bærer mig. Sandet sagtner mig. Mudder fanger mig, 2021, Gallery Memphis, Oslo, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/jorden/jorden_4.jpg">
+  <p>Jorden bærer mig. Sandet sagtner mig. Mudder fanger mig, 2021, Ila pensjonat, Oslo, Norway</p>
+  <br>
+  <img style="width: 43vw;" src="billeder/midnat/midnat.jpg">
+  <p> Horisonten efter midnat, w/Matias Kiil, 2019, Galleri Golsa, Oslo, Norway <br> 
 </div>
 
-<div class="mySlides fade">
-  <img src="billeder/fugleaffirenze.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-  <p style="margin-left: 5%; font-size:14px">Fugle Af Firenze <br> 2021 <br> Villa Lena Foundation</p>
-</div>
 
-<div class="mySlides fade">
-  <img src="billeder/manbanker.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-  <p style="margin-left: 5%; font-size:14px">Man Banker <br> 2021 <br> Householding Rules <br> Studio17</p>
-</div>
-
-<div class="mySlides fade">
-  <img src="billeder/hare.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-  <p style="margin-left: 5%; font-size:14px">Hare I & II <br> 2021 <br> Householding Rules <br> Studio17 </p> 
-</div>
-
-<div class="mySlides fade">
-  <img src="billeder/apple.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-  <p style="margin-left: 5%; font-size:14px">Heretic Apple <br> 2021 <br> 14,8x21</p>
-</div>
-
-<div class="mySlides fade">
-  <img src="billeder/jorden1.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-<p style="margin-left: 5%; font-size:14px">Jorden bærer mig. Sandet sagtner mig. Mudder fanger mig. <br> 2019 <br> Avgang 2019 <br> Ila Pensjonat </p>
-</div>
-
-<div class="mySlides fade">
-  <img src="billeder/jorden2.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-<p style="margin-left: 5%; font-size:14px">Jorden bærer mig. Sandet sagtner mig. Mudder fanger mig. <br> 2019 <br> Avgang 2019 <br> Ila Pensjonat</p>
-</div>
-
-<div class="mySlides fade">
-  <img src="billeder/vandet.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-<p style="margin-left: 5%; font-size:14px">Mod Vandet <br> 2019 <br> Hototogisu <br> Galleri Plum Trim </p>
-</div>
-
-<div class="mySlides fade">
-  <img src="billeder/vandet2.jpg" class="zoom" style="width:65%; margin-left:5%; margin-top:38px">
-<p style="margin-left: 5%; font-size:14px">Mod Vandet <br> 2019 <br> Hototogisu <br> Galleri Plum Trim </p>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
+  </div>
 
 
 </body>

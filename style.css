@@ -10,7 +10,8 @@ html, body {
     color: black;
 }
   .maillink:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    color: blue;
   }
 
 .menu {
@@ -35,18 +36,64 @@ html, body {
     text-decoration: none;
   }
 
+  .menu a:hover {
+  text-decoration: none;
+  }
+
 .container {
   line-height: 120%; 
   position:absolute;
-  top:24%;
-  left:24%;
+  top:120px;
+  left:22vw;
   font-size: 14px;
+  width:;
 }
 
-.billede-container {
-    width: 800px;
-    border: 2px solid red;
-    left: 24%;
-    position: absolute;
-    top: 17%;
+.picturecontainer {
+  position: relative;
+  padding-top: 60px;
+  padding-left: 20vw;
+  width: 80vw;
+  text-align: left;
+  line-height: 0.5; 
+  font-size: 12px;
 }
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  color: blue;
+}
+
+.dropbtn:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: absolute;
+  padding-top: 0vw;
+  width: ;
+  margin: 0 auto;
+}
+
+.dropdown-content {
+  margin-top: 0vw;
+  width: ;
+  display: none;
+  position: relative;
+  overflow: auto;
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  display: block;
+  padding: ;
+  color: black;
+}
+
+.show {display: block;}
+
+
+
+
