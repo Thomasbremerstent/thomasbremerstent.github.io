@@ -52,7 +52,7 @@ html, body {
 .picturecontainer {
   position: relative;
   padding-top: 60px;
-  padding-left: 20vw;
+  margin-left: 20vw;
   width: 80vw;
   text-align: left;
   line-height: 0.5; 
