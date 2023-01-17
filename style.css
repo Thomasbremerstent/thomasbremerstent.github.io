@@ -53,10 +53,12 @@ html, body {
   position: relative;
   padding-top: 60px;
   margin-left: 20vw;
-  width: 80vw;
-  text-align: left;
-  line-height: 0.5; 
-  font-size: 12px;
+  width: 43vw;
+}
+
+.caption {
+    display: block;
+    font-size: 12px;
 }
 
 .dropbtn {
