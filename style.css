@@ -107,5 +107,20 @@ html, body {
   width: 50vw;
 }
 
+.pic {
+  display: block;
+  font-size: 12px;
+  margin-top: -0.5vw;
+  padding-bottom: 0.4vw;
+}
+
+.text
+{
+  display: block;
+  line-height: 0.6;
+  font-size: 14px;
+}
+
+
 
 
