@@ -51,9 +51,9 @@ html, body {
 
 .picturecontainer {
   position: relative;
-  padding-top: 60px;
-  margin-left: 22vw;
-  width: 50vw;
+  padding-top: 120px;
+  margin-left: 20.5vw;
+  width: 58vw;
 }
 
 .dropbtn {
@@ -98,27 +98,43 @@ html, body {
 .myDIV:hover + .hide {
   display: block;
   font-size: 12px;
-  margin-top: -0.5vw;
-  padding-bottom: 0.4vw;
+  margin-top: -14px;
 }
 
 .img {
-  padding-bottom: 0.5vw;
-  width: 50vw;
+  padding-bottom: 12px;
+  margin-top: 6px;
+  width: 58vw;
 }
 
-.pic {
+.myDIV2:hover + .semihide {
   display: block;
   font-size: 12px;
-  margin-top: -0.5vw;
-  padding-bottom: 0.4vw;
+  margin-top: -14px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.semihide {
+  display: block;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  margin-top: -14px;
+}
+
+.semihide:hover {
+  display: block;
+  font-size: 12px;
+  margin-top: -14px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .text
 {
   display: block;
-  line-height: 0.8;
+  line-height: 1;
   font-size: 14px;
+  margin-top: -5vw;
+
 }
 
 
