@@ -21,7 +21,7 @@ html, body {
   position: fixed;
   font-size: 12px;
   width: 20vw;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .menu li a {
