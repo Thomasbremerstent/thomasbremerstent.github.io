@@ -83,7 +83,6 @@ html, body {
   z-index: 1;
 }
 
-
 .dropdown-content a {
   display: block;
   padding: ;
@@ -106,6 +105,19 @@ html, body {
   padding-bottom: 12px;
   margin-top: 6px;
   width: 58vw;
+}
+
+.img2 {
+  padding-bottom: 12px;
+  margin-top: 6px;
+  width: 28vw;
+  margin-right: 1.5vw;
+}
+
+.img3 {
+  padding-bottom: 12px;
+  margin-top: 6px;
+  width: 28vw;
 }
 
 .myDIV2:hover + .semihide {
