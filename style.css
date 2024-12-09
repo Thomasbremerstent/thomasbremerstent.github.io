@@ -43,18 +43,19 @@ html, body {
 
 .index {
    list-style-type: none;
-    color: blue;
 }
 
   .index li a {
     text-decoration: none;
     font-size: 15px;
     line-height: 2;
+    color: blue;
 
   }
 
   .index a:hover {
         text-decoration: line-through;
+        color: blue;
   }
 
 .container {
