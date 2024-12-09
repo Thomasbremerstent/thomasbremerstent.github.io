@@ -43,6 +43,7 @@ html, body {
 
 .index {
    list-style-type: none;
+    color: blue;
 }
 
   .index li a {
