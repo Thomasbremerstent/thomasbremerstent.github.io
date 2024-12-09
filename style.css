@@ -41,6 +41,21 @@ html, body {
   text-decoration: none;
   }
 
+.index {
+   list-style-type: none;
+}
+
+  .index li a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 2;
+
+  }
+
+  .index a:hover {
+        text-decoration: line-through;
+  }
+
 .container {
   line-height: 120%; 
   position:absolute;
